@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to My Website</h1>
+            <p>Explore and enjoy the beautiful designs!</p>
+            <button id="changeColorButton">Change Background Color</button>
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>I am dedicated to creating stunning designes. I am an experienced designer and I will work tirelessly to bring your vision to life.</p>
+            <p>My mission is to deliver high-quality, aesthetically pleasing websites that not only look great but also perform excellently. Whether you're a small business or a large corporation, I have the skills and expertise to help you succeed online.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Web Design</h3>
+                    <p>Beautiful and responsive designs that look great on any device.</p>
+                </div>
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Robust and scalable development solutions for your business needs.</p>
+                </div>
+                <div class="card">
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your search engine rankings and drive more traffic to your site.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Beautiful Purple Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
